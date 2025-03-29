@@ -4,3 +4,7 @@
 
 vim.g.lazyvim_eslint_auto_format = true
 vim.g.snacks_animate = true
+
+vim.api.nvim_set_hl(0, "@lsp.type.method", { underline = false, nocombine = true })
+vim.api.nvim_set_hl(0, "@lsp.type.function", { underline = false, nocombine = true })
+vim.api.nvim_set_hl(0, "@lsp.type.property", { underline = false, nocombine = true })
